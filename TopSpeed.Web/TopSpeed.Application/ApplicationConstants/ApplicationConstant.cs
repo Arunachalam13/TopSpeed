@@ -16,4 +16,11 @@ namespace TopSpeed.Application.ApplicationConstants
         public static string RecordUpdated = "Record Updated Successfully";
         public static string RecordDeleted = "Record Deleted Successfully";
     }
+
+    public static class CustomRole
+    {
+        public const string MasterAdmin = "MASTERADMIN";
+        public const string Admin = "ADMIN";
+        public const string Customer = "CUSTOMER";
+    }
 }

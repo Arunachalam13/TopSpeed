@@ -1,0 +1,803 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|solutionrelative:topspeed.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.domain\\viewmodel\\customerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|solutionrelative:topspeed.domain\\viewmodel\\customerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.domain\\viewmodel\\postvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|solutionrelative:topspeed.domain\\viewmodel\\postvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.domain\\viewmodel\\homepostvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|solutionrelative:topspeed.domain\\viewmodel\\homepostvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.application\\contracts\\presistence\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|solutionrelative:topspeed.application\\contracts\\presistence\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.infrastructure\\common\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|solutionrelative:topspeed.infrastructure\\common\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|solutionrelative:topspeed.infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.application\\extensionsmethods\\tempdataextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|solutionrelative:topspeed.application\\extensionsmethods\\tempdataextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.application\\services\\interface\\iusernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|solutionrelative:topspeed.application\\services\\interface\\iusernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.application\\services\\usernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|solutionrelative:topspeed.application\\services\\usernameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.infrastructure\\common\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|solutionrelative:topspeed.infrastructure\\common\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.application\\applicationconstants\\applicationconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|solutionrelative:topspeed.application\\applicationconstants\\applicationconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.infrastructure\\common\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|solutionrelative:topspeed.infrastructure\\common\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\controllers\\vehicletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\controllers\\vehicletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.application\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|solutionrelative:topspeed.application\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\views\\post\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\views\\post\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|solutionrelative:topspeed.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\views\\brand\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\views\\brand\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.infrastructure\\repositories\\vehicletyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|solutionrelative:topspeed.infrastructure\\repositories\\vehicletyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.infrastructure\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|solutionrelative:topspeed.infrastructure\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.application\\contracts\\presistence\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7B85BEB-C65D-4413-B232-EE6A52534E31}|TopSpeed.Application\\TopSpeed.Application.csproj|solutionrelative:topspeed.application\\contracts\\presistence\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|solutionrelative:topspeed.domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.web\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1215916D-FF80-48F9-B362-757C24EA5EF1}|TopSpeed.Web\\TopSpeed.Web.csproj|solutionrelative:topspeed.web\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.domain\\topspeed.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F73C8D81-8120-401B-A902-E313AFEFBBCC}|TopSpeed.Domain\\TopSpeed.Domain.csproj|solutionrelative:topspeed.domain\\topspeed.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|d:\\arun\\web-api\\asp.net_core_mvc\\topspeed\\topspeed.web\\topspeed.infrastructure\\migrations\\20250428150846_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C636A273-9B4F-46F6-86D0-D78F201FEA5C}|TopSpeed.Infrastructure\\TopSpeed.Infrastructure.csproj|solutionrelative:topspeed.infrastructure\\migrations\\20250428150846_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T03:30:27.489Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwCoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T04:40:12.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T02:53:10.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:17:03.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Program.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Program.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Program.cs",
+              "RelativeToolTip": "TopSpeed.Web\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:59:29.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwEYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T03:31:45.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwIAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:06:21.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TopSpeed.Web\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T12:09:56.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T03:51:07.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T17:37:52.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\appsettings.json",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\appsettings.json",
+              "RelativeToolTip": "TopSpeed.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T06:28:39.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Infrastructure\\Repositories\\PostRepository.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "TopSpeed.Infrastructure\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwEcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:35:07.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T06:07:34.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\ViewModel\\CustomerDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Domain\\ViewModel\\CustomerDetailsViewModel.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\ViewModel\\CustomerDetailsViewModel.cs",
+              "RelativeToolTip": "TopSpeed.Domain\\ViewModel\\CustomerDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:38:47.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PostVM.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\ViewModel\\PostVM.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Domain\\ViewModel\\PostVM.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\ViewModel\\PostVM.cs",
+              "RelativeToolTip": "TopSpeed.Domain\\ViewModel\\PostVM.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAhwBQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T03:23:50.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePostVM.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\ViewModel\\HomePostVM.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Domain\\ViewModel\\HomePostVM.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\ViewModel\\HomePostVM.cs",
+              "RelativeToolTip": "TopSpeed.Domain\\ViewModel\\HomePostVM.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T03:38:53.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Common\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Infrastructure\\Common\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Common\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TopSpeed.Infrastructure\\Common\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T06:39:59.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "TopSpeed.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T06:40:19.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TempDataExtensions.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\ExtensionsMethods\\TempDataExtensions.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Application\\ExtensionsMethods\\TempDataExtensions.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\ExtensionsMethods\\TempDataExtensions.cs",
+              "RelativeToolTip": "TopSpeed.Application\\ExtensionsMethods\\TempDataExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:14:22.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Contracts\\Presistence\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Application\\Contracts\\Presistence\\IPostRepository.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Contracts\\Presistence\\IPostRepository.cs",
+              "RelativeToolTip": "TopSpeed.Application\\Contracts\\Presistence\\IPostRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAjwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:30:42.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExtensionMethods.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Common\\ExtensionMethods.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Infrastructure\\Common\\ExtensionMethods.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Common\\ExtensionMethods.cs",
+              "RelativeToolTip": "TopSpeed.Infrastructure\\Common\\ExtensionMethods.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:10:51.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUserNameService.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Services\\Interface\\IUserNameService.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Application\\Services\\Interface\\IUserNameService.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Services\\Interface\\IUserNameService.cs",
+              "RelativeToolTip": "TopSpeed.Application\\Services\\Interface\\IUserNameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:10:27.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserNameService.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Services\\UserNameService.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Application\\Services\\UserNameService.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Services\\UserNameService.cs",
+              "RelativeToolTip": "TopSpeed.Application\\Services\\UserNameService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:12:18.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T02:33:35.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VehicleTypeController.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Controllers\\VehicleTypeController.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Controllers\\VehicleTypeController.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Controllers\\VehicleTypeController.cs",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Controllers\\VehicleTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T01:59:31.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T03:03:04.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationConstant.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\ApplicationConstants\\ApplicationConstant.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Application\\ApplicationConstants\\ApplicationConstant.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\ApplicationConstants\\ApplicationConstant.cs",
+              "RelativeToolTip": "TopSpeed.Application\\ApplicationConstants\\ApplicationConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T03:22:50.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv30AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:28:01.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Common\\SeedData.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Infrastructure\\Common\\SeedData.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Common\\SeedData.cs",
+              "RelativeToolTip": "TopSpeed.Infrastructure\\Common\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:15:26.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Application\\Services\\EmailSender.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Services\\EmailSender.cs",
+              "RelativeToolTip": "TopSpeed.Application\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:18:20.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T14:58:51.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250428150846_User.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Migrations\\20250428150846_User.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Infrastructure\\Migrations\\20250428150846_User.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Migrations\\20250428150846_User.cs",
+              "RelativeToolTip": "TopSpeed.Infrastructure\\Migrations\\20250428150846_User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:08:47.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "TopSpeed.Web\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-28T14:55:02.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Create.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Create.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Create.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Create.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAqwIsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T03:46:42.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Edit.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Edit.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:37:26.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Delete.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Delete.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Views\\Post\\Delete.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAIBJwH0AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T14:13:07.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:45:29.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "TopSpeed.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwA0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T14:22:25.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Details.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Details.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Details.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Views\\Brand\\Details.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:48:00.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T03:56:48.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Repositories\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Infrastructure\\Repositories\\BrandRepository.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Repositories\\BrandRepository.cs",
+              "RelativeToolTip": "TopSpeed.Infrastructure\\Repositories\\BrandRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T11:51:43.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "VehicleTypeRepository.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Repositories\\VehicleTypeRepository.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Infrastructure\\Repositories\\VehicleTypeRepository.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Infrastructure\\Repositories\\VehicleTypeRepository.cs",
+              "RelativeToolTip": "TopSpeed.Infrastructure\\Repositories\\VehicleTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:11:04.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Contracts\\Presistence\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Application\\Contracts\\Presistence\\IBrandRepository.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Application\\Contracts\\Presistence\\IBrandRepository.cs",
+              "RelativeToolTip": "TopSpeed.Application\\Contracts\\Presistence\\IBrandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T06:52:28.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "TopSpeed.Domain\\Models\\Post.cs",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\Models\\Post.cs",
+              "RelativeToolTip": "TopSpeed.Domain\\Models\\Post.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwDcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T04:35:24.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TopSpeed.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TopSpeed.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T04:40:08.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TopSpeed.Domain.csproj",
+              "DocumentMoniker": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\TopSpeed.Domain.csproj",
+              "RelativeDocumentMoniker": "TopSpeed.Domain\\TopSpeed.Domain.csproj",
+              "ToolTip": "D:\\Arun\\WEB-API\\Asp.NET_Core_MVC\\TopSpeed\\TopSpeed.Web\\TopSpeed.Domain\\TopSpeed.Domain.csproj",
+              "RelativeToolTip": "TopSpeed.Domain\\TopSpeed.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-27T03:23:17.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

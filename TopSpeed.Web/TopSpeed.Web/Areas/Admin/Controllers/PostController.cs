@@ -1,41 +1,115 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using TopSpeed.Application.ApplicationConstants;
 using TopSpeed.Application.Contracts.Presistence;
+using TopSpeed.Application.Services.Interface;
+using TopSpeed.Domain.ApplicationEnums;
 using TopSpeed.Domain.Models;
+using TopSpeed.Domain.ViewModel;
 using TopSpeed.Infrastructure.Common;
 
 namespace TopSpeed.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = CustomRole.MasterAdmin + "," + CustomRole.Admin)]
+
     public class PostController : Controller
     {
         readonly IUnitOfWork _unitOfWork;
 
         readonly IWebHostEnvironment _webHostEnvironment;
 
-        public PostController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
+        readonly IUserNameService _userNameService;
+
+        public PostController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment, IUserNameService userNameService)
         {
             _unitOfWork = unitOfWork;
             _webHostEnvironment = webHostEnvironment;
+            _userNameService = userNameService;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            List<Post> posts = await _unitOfWork.Post.GetAllAsync();
+            List<Post> posts = await _unitOfWork.Post.GetAllPost();
             return View(posts);
         }
 
         [HttpGet]
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            return View();
+            List<Post> posts = await _unitOfWork.Post.GetAllPost();
+            List<Brand> brands = await _unitOfWork.Brand.GetAllAsync();
+            List<VehicleType> vehicleTypes = await _unitOfWork.VehicleType.GetAllAsync();
+
+            //IEnumerable<SelectListItem> brandList = _unitOfWork.Brand.Query().Select(x => new SelectListItem
+            //{
+            //    Text = x.Name.ToUpper(),
+            //    Value = x.Id.ToString()
+            //});
+
+            //List<SelectListItem> brandList = new();
+
+            //foreach (var item in brands)
+            //{
+            //    brandList.Add(new SelectListItem
+            //    {
+            //        Text = item.Name.ToUpper(),
+            //        Value = item.Id.ToString()
+            //    });
+            //}
+
+            IEnumerable<SelectListItem> brandList = brands.Select(item => new SelectListItem
+            {
+                Text = item.Name.ToUpper(),
+                Value = item.Id.ToString()
+            });
+
+            //IEnumerable<SelectListItem> vehicleTypeList = _unitOfWork.VehicleType.Query().Select(x => new SelectListItem
+            //{
+            //    Text = x.Name.ToUpper(),
+            //    Value = x.Id.ToString()
+            //});
+
+            IEnumerable<SelectListItem> vehicleTypeList = vehicleTypes.Select(item => new SelectListItem
+            {
+                Text = item.Name.ToUpper(),
+                Value = item.Id.ToString()
+            });
+
+            IEnumerable<SelectListItem> engineAndFuelType = Enum.GetValues(typeof(EngineAndFuelType))
+                .Cast<EngineAndFuelType>()
+                .Select(x => new SelectListItem
+                {
+                    Text = x.ToString().ToUpper(),
+                    Value = ((int)x).ToString()
+                });
+
+            IEnumerable<SelectListItem> transmission = Enum.GetValues(typeof(Transmission))
+                .Cast<Transmission>()
+                .Select(x => new SelectListItem
+                {
+                    Text = x.ToString().ToUpper(),
+                    Value = ((int)x).ToString()
+                });
+
+            PostVM postVM = new PostVM
+            {
+                Post = new Post(),
+                BrandList = brandList,
+                VehicleTypeList = vehicleTypeList,
+                EngineAndFuelTypeList = engineAndFuelType,
+                TransmissionList = transmission
+            };
+
+            return View(postVM);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Post post)
+        public async Task<IActionResult> Create(PostVM postVM)
         {
 
             string webRootPath = _webHostEnvironment.WebRootPath;
@@ -52,12 +126,12 @@ namespace TopSpeed.Web.Areas.Admin.Controllers
                     file[0].CopyTo(fileStream);
                 }
 
-                post.VehicleImage = @"\images\post\" + newFileName + extension;
+                postVM.Post.VehicleImage = @"\images\post\" + newFileName + extension;
             }
 
             if (ModelState.IsValid)
             {
-                await _unitOfWork.Post.Create(post);
+                await _unitOfWork.Post.Create(postVM.Post);
                 await _unitOfWork.SaveAsync();
 
                 TempData["success"] = CommonMessage.RecordCreated;
@@ -72,19 +146,63 @@ namespace TopSpeed.Web.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Details(Guid id)
         {
-            Post post = await _unitOfWork.Post.GetByIdAsync(id);
+            Post post = await _unitOfWork.Post.GetPostById(id);
+
+            post.CreatedBy = await _userNameService.GetUserName(post.CreatedBy);
+            post.ModifiedBy = await _userNameService.GetUserName(post.ModifiedBy);
             return View(post);
         }
 
         [HttpGet]
         public async Task<IActionResult> Edit(Guid id)
         {
-            Post post = await _unitOfWork.Post.GetByIdAsync(id);
-            return View(post);
+            Post post = await _unitOfWork.Post.GetPostById(id);
+
+            List<Post> posts = await _unitOfWork.Post.GetAllPost();
+            List<Brand> brands = await _unitOfWork.Brand.GetAllAsync();
+            List<VehicleType> vehicleTypes = await _unitOfWork.VehicleType.GetAllAsync();
+
+            IEnumerable<SelectListItem> brandList = brands.Select(item => new SelectListItem
+            {
+                Text = item.Name.ToUpper(),
+                Value = item.Id.ToString()
+            });
+
+            IEnumerable<SelectListItem> vehicleTypeList = vehicleTypes.Select(item => new SelectListItem
+            {
+                Text = item.Name.ToUpper(),
+                Value = item.Id.ToString()
+            });
+
+            IEnumerable<SelectListItem> engineAndFuelType = Enum.GetValues(typeof(EngineAndFuelType))
+                .Cast<EngineAndFuelType>()
+                .Select(x => new SelectListItem
+                {
+                    Text = x.ToString().ToUpper(),
+                    Value = ((int)x).ToString()
+                });
+
+            IEnumerable<SelectListItem> transmission = Enum.GetValues(typeof(Transmission))
+                .Cast<Transmission>()
+                .Select(x => new SelectListItem
+                {
+                    Text = x.ToString().ToUpper(),
+                    Value = ((int)x).ToString()
+                });
+
+            PostVM postVM = new PostVM
+            {
+                Post = post,
+                BrandList = brandList,
+                VehicleTypeList = vehicleTypeList,
+                EngineAndFuelTypeList = engineAndFuelType,
+                TransmissionList = transmission
+            };
+            return View(postVM);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(Post post)
+        public async Task<IActionResult> Edit(PostVM postVM)
         {
             string webRootPath = _webHostEnvironment.WebRootPath;
 
@@ -98,7 +216,7 @@ namespace TopSpeed.Web.Areas.Admin.Controllers
 
                 // delete old image
 
-                var objFromDb = await _unitOfWork.Post.GetByIdAsync(post.Id);
+                var objFromDb = await _unitOfWork.Post.GetByIdAsync(postVM.Post.Id);
 
                 if (objFromDb.VehicleImage != null)
                 {
@@ -114,12 +232,12 @@ namespace TopSpeed.Web.Areas.Admin.Controllers
                     file[0].CopyTo(fileStream);
                 }
 
-                post.VehicleImage = @"\images\post\" + newFileName + extension;
+                postVM.Post.VehicleImage = @"\images\post\" + newFileName + extension;
             }
 
             if (ModelState.IsValid)
             {
-                await _unitOfWork.Post.Update(post);
+                await _unitOfWork.Post.Update(postVM.Post);
                 await _unitOfWork.SaveAsync();
 
                 TempData["warning"] = CommonMessage.RecordUpdated;
@@ -133,18 +251,59 @@ namespace TopSpeed.Web.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Delete(Guid id)
         {
-            Post post = await _unitOfWork.Post.GetByIdAsync(id);
-            return View(post);
+            Post post = await _unitOfWork.Post.GetPostById(id);
+
+            List<Post> posts = await _unitOfWork.Post.GetAllPost();
+            List<Brand> brands = await _unitOfWork.Brand.GetAllAsync();
+            List<VehicleType> vehicleTypes = await _unitOfWork.VehicleType.GetAllAsync();
+
+            IEnumerable<SelectListItem> brandList = brands.Select(item => new SelectListItem
+            {
+                Text = item.Name.ToUpper(),
+                Value = item.Id.ToString()
+            });
+
+            IEnumerable<SelectListItem> vehicleTypeList = vehicleTypes.Select(item => new SelectListItem
+            {
+                Text = item.Name.ToUpper(),
+                Value = item.Id.ToString()
+            });
+
+            IEnumerable<SelectListItem> engineAndFuelType = Enum.GetValues(typeof(EngineAndFuelType))
+                .Cast<EngineAndFuelType>()
+                .Select(x => new SelectListItem
+                {
+                    Text = x.ToString().ToUpper(),
+                    Value = ((int)x).ToString()
+                });
+
+            IEnumerable<SelectListItem> transmission = Enum.GetValues(typeof(Transmission))
+                .Cast<Transmission>()
+                .Select(x => new SelectListItem
+                {
+                    Text = x.ToString().ToUpper(),
+                    Value = ((int)x).ToString()
+                });
+
+            PostVM postVM = new PostVM
+            {
+                Post = post,
+                BrandList = brandList,
+                VehicleTypeList = vehicleTypeList,
+                EngineAndFuelTypeList = engineAndFuelType,
+                TransmissionList = transmission
+            };
+            return View(postVM);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Delete(Post post)
+        public async Task<IActionResult> Delete(PostVM postVM)
         {
             string webRootPath = _webHostEnvironment.WebRootPath;
 
-            if (!string.IsNullOrEmpty(post.VehicleImage))
+            if (!string.IsNullOrEmpty(postVM.Post.VehicleImage))
             {
-                var objFromDb = await _unitOfWork.Post.GetByIdAsync(post.Id);
+                var objFromDb = await _unitOfWork.Post.GetByIdAsync(postVM.Post.Id);
 
                 if (objFromDb.VehicleImage != null)
                 {
@@ -156,7 +315,7 @@ namespace TopSpeed.Web.Areas.Admin.Controllers
                 }
             }
 
-            await _unitOfWork.Post.Delete(post);
+            await _unitOfWork.Post.Delete(postVM.Post);
             await _unitOfWork.SaveAsync();
 
             TempData["error"] = CommonMessage.RecordDeleted;

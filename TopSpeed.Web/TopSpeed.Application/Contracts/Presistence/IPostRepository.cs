@@ -15,5 +15,10 @@ namespace TopSpeed.Application.Contracts.Presistence
         Task<Post> GetPostById(Guid id);
 
         Task<List<Post>> GetAllPost();
+
+        // Pagination
+        Task<List<Post>> GetAllPost(Guid? skipRecord, Guid? brandId);
+
+        Task<List<Post>> GetAllPost(string? searchName, Guid? brandId, Guid? vehicleTypeId);
     }
 }

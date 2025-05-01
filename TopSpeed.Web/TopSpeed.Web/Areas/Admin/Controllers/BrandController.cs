@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
@@ -11,56 +12,42 @@ using TopSpeed.Infrastructure.Common;
 namespace TopSpeed.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles =CustomRole.MasterAdmin + "," + CustomRole.Admin)]
+    //[Authorize(Roles = "MASTERADMIN,ADMIN")]
     public class BrandController : Controller
     {
         readonly IUnitOfWork _unitOfWork;
 
         readonly IWebHostEnvironment _webHostEnvironment;
 
-        public BrandController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
+        readonly ILogger<BrandController> _logger;
+
+        public BrandController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment, ILogger<BrandController> logger)
         {
             _unitOfWork = unitOfWork;
             _webHostEnvironment = webHostEnvironment;
+            _logger = logger;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            List<Brand> brands = await _unitOfWork.Brand.GetAllAsync();
-            return View(brands);
+            try
+            {
+                List<Brand> brands = await _unitOfWork.Brand.GetAllAsync();
+                _logger.LogInformation("Brand List Fetched from Database Successfully");
+                return View(brands);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Something went wrong");
+                return View();
+            }
         }
 
         [HttpGet]
         public IActionResult Create()
         {
-            IEnumerable<SelectListItem> brandList = _unitOfWork.Brand.Query().Select(x => new SelectListItem
-            {
-                Text = x.Name.ToUpper(),
-                Value = x.Id.ToString()
-            });
-
-            IEnumerable<SelectListItem> vehicleTypeList = _unitOfWork.Brand.Query().Select(x => new SelectListItem
-            {
-                Text = x.Name.ToUpper(),
-                Value = x.Id.ToString()
-            });
-
-            IEnumerable<SelectListItem> engineAndFuelType = Enum.GetValues(typeof(EngineAndFuelType))
-                .Cast<EngineAndFuelType>()
-                .Select(x => new SelectListItem
-                {
-                    Text = x.ToString().ToUpper(),
-                    Value = ((int)x).ToString()
-                });
-
-            IEnumerable<SelectListItem> transmission = Enum.GetValues(typeof(Transmission))
-                .Cast<Transmission>()
-                .Select(x => new SelectListItem
-                {
-                    Text = x.ToString().ToUpper(),
-                    Value = ((int)x).ToString()
-                });
-
             return View();
         }
 
